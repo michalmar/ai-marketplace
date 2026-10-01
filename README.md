@@ -30,3 +30,15 @@ Each plugin should live in its own directory under `plugins/` and contain a
 
 - `project-document` - Creates or formats a project metadata document as
   `PROJECT.md`.
+
+## Included plugins
+
+- `project-document` - Packages the `project-document` skill as an installable
+  Agent Plugin.
+
+Install the marketplace and plugin locally with:
+
+```bash
+copilot plugin marketplace add .
+copilot plugin install project-document@ai-marketplace
+```

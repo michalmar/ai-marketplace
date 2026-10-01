@@ -7,5 +7,12 @@
     "description": "A marketplace for reusable AI plugins and developer tools.",
     "version": "0.1.0"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "project-document",
+      "description": "Create or format a consistent Markdown project document.",
+      "version": "0.1.0",
+      "source": "./plugins/project-document"
+    }
+  ]
 }
