@@ -1,0 +1,11 @@
+{
+  "name": "ai-marketplace",
+  "owner": {
+    "name": "michalmar"
+  },
+  "metadata": {
+    "description": "A marketplace for reusable AI plugins and developer tools.",
+    "version": "0.1.0"
+  },
+  "plugins": []
+}
