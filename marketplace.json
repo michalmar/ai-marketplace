@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "A marketplace for reusable AI plugins and developer tools.",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
       "name": "project-document",
       "description": "Create project documents and display marketplace version information.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "source": "./plugins/project-document"
     }
   ]

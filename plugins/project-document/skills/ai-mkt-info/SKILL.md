@@ -11,8 +11,8 @@ version.
 Respond with:
 
 ```text
-AI Marketplace version: 0.2.0
-project-document plugin version: 0.2.0
+AI Marketplace version: 0.3.0
+project-document plugin version: 0.3.0
 ```
 
 Keep the response concise. Do not add installation instructions or other
