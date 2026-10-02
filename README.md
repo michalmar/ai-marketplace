@@ -30,11 +30,13 @@ Each plugin should live in its own directory under `plugins/` and contain a
 
 - `project-document` - Creates or formats a project metadata document as
   `PROJECT.md`.
+- `ai-mkt-info` - Displays the current marketplace and `project-document`
+  plugin versions.
 
 ## Included plugins
 
-- `project-document` - Packages the `project-document` skill as an installable
-  Agent Plugin.
+- `project-document` - Packages the `project-document` and `ai-mkt-info`
+  skills as an installable Agent Plugin.
 
 Install the marketplace and plugin locally with:
 
