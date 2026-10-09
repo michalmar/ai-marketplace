@@ -1,14 +1,15 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "project-document",
-  "version": "0.3.0",
-  "description": "Create project documents and display marketplace version information.",
+  "version": "0.4.0",
+  "description": "Create project documents, process email requests, and display marketplace version information.",
   "author": {
     "name": "michalmar"
   },
   "repository": "https://github.com/michalmar/ai-marketplace",
   "keywords": [
     "documentation",
+    "email",
     "marketplace",
     "markdown",
     "project"

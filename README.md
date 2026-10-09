@@ -32,11 +32,13 @@ Each plugin should live in its own directory under `plugins/` and contain a
   `PROJECT.md`.
 - `ai-mkt-info` - Displays the current marketplace and `project-document`
   plugin versions.
+- `email-to-action` - Turns a specified email and optional attachment into
+  evidence-backed analysis and supporting artifacts.
 
 ## Included plugins
 
-- `project-document` - Packages the `project-document` and `ai-mkt-info`
-  skills as an installable Agent Plugin.
+- `project-document` - Packages the `project-document`, `ai-mkt-info`, and
+  `email-to-action` skills as an installable Agent Plugin.
 
 Install the marketplace and plugin locally with:
 
