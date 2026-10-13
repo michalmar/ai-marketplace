@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mattpocock-skills",
+  "version": "0.1.0",
+  "description": "A curated collection of Matt Pocock's skills for grilling, handoffs, specifications, implementation, and repository setup.",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "repository": "https://github.com/michalmar/ai-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "skills",
+    "grilling",
+    "specifications",
+    "tdd",
+    "code-review"
+  ]
+}
