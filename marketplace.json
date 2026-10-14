@@ -5,19 +5,19 @@
   },
   "metadata": {
     "description": "A marketplace for reusable AI plugins and developer tools.",
-    "version": "0.5.1"
+    "version": "0.6.0"
   },
   "plugins": [
     {
       "name": "project-document",
       "description": "Create project documents, process email requests, and display marketplace version information.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "source": "./plugins/project-document"
     },
     {
       "name": "mattpocock-skills",
-      "description": "Matt Pocock's grilling, handoff, specification, implementation, and repository setup skills with their supporting dependencies.",
-      "version": "0.1.0",
+      "description": "Matt Pocock's grilling, handoff, specification, ticket, implementation, triage, retrospective, domain modeling, and repository setup skills with their supporting dependencies.",
+      "version": "0.2.0",
       "source": "./plugins/mattpocock-skills"
     }
   ]

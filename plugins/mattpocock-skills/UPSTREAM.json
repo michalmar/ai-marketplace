@@ -3,7 +3,20 @@
   "revision": "49dd158d1076134a641b33efb035946536778336",
   "upstreamVersion": "1.3.1",
   "license": "MIT",
-  "modifications": [],
+  "modifications": [
+    {
+      "skills": ["implement", "implement-spec"],
+      "description": "Enable model invocation in both destinations.",
+      "files": {
+        "SKILL.md": {
+          "disable-model-invocation": false
+        },
+        "agents/openai.yaml": {
+          "policy.allow_implicit_invocation": true
+        }
+      }
+    }
+  ],
   "requestedSkills": {
     "grill-me": "skills/productivity/grill-me",
     "grilling": "skills/productivity/grilling",
@@ -12,13 +25,18 @@
     "ask-matt": "skills/engineering/ask-matt",
     "implement": "skills/engineering/implement",
     "to-spec": "skills/engineering/to-spec",
-    "setup-matt-pocock-skills": "skills/engineering/setup-matt-pocock-skills"
+    "setup-matt-pocock-skills": "skills/engineering/setup-matt-pocock-skills",
+    "triage": "skills/engineering/triage",
+    "retro": "skills/engineering/retro",
+    "to-tickets": "skills/engineering/to-tickets",
+    "implement-spec": "skills/engineering/implement-spec",
+    "domain-modeling": "skills/engineering/domain-modeling"
   },
   "dependencySkills": {
-    "domain-modeling": "skills/engineering/domain-modeling",
     "tdd": "skills/engineering/tdd",
     "code-review": "skills/engineering/code-review",
-    "codebase-design": "skills/engineering/codebase-design"
+    "codebase-design": "skills/engineering/codebase-design",
+    "writing-for-agents": "skills/productivity/writing-for-agents"
   },
   "destinations": [
     "skills/<name>",

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "project-document",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Create project documents, process email requests, and display marketplace version information.",
   "author": {
     "name": "michalmar"
